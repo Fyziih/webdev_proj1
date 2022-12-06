@@ -1,0 +1,95 @@
+/** {
+  padding: 0;
+  margin: 0;
+}*/
+header h1 {
+  text-align: center;
+  font-size: ;
+  font-family: "Playfair Display", serif;
+}
+.linkcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.link {
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+header nav {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+header p {
+  text-align: right;
+  font-family: "DM Sans", sans-serif;
+}
+.head-small {
+  font-size: 25px;
+  display: block;
+}
+
+hr {
+  width: 70vw;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.latest {
+  text-align: center;
+}
+/* .sect {
+  background-color: blue;
+  padding: 20px;
+} */
+/* h2 {
+  background-color: rgb(11, 151, 151);
+} */
+/* .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: red;
+  padding: 20px;
+}
+.innerbox {
+  margin: 5px;
+  background-color: blanchedalmond;
+  height: 40px;
+  width: 40px;
+  color: white;
+} */
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.box {
+  flex-grow: 1;
+  width: calc(23%-2px);
+  padding: 10px;
+  margin: 100px;
+  height: 300px;
+  color: rgb(246, 48, 48);
+  font-family: "Playfair Display", serif;
+  max-width: 15rem;
+}
+/* .box1 {
+  flex-grow: 1;
+  width: calc(5%-25px); 
+  margin: 2px;
+  height: 300
+  px;
+  background-color: rgb(253, 253, 253);
+  color: rgb(246, 48, 48);
+  font-family: "Playfair Display", serif;
+} */
+.round {
+  border-radius: 0.75cm;
+  max-width: 15rem;
+  min-width: 15rem;
+}
